@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-section {
+    padding: 20px;
+    background-color: #e6e7ff;
+    flex: 1; /* This section takes more space */
+}
+
+.description-section {
+    padding: 20px;
+    flex: 2; /* This section takes less space */
+}
+
+.profile-image {
+    width: 120px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 50%; /* Make it a circle */
+}
+
+.tech-stack {
+    display: flex;
+    margin: 10px 0;
+}
+
+.tech-stack img {
+    width: 40px; /* Adjust width of tech icons */
+    height: auto;
+    margin-right: 10px; /* Space between icons */
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #666;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+    color:#444;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    flex: 1;
+}
+
+#h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #6a9ae0; /* Light purple */
+    height: 100%;
+    border-radius: 5px;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.allceo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.ceo{
+    border: 3px solid black;
+    min-height: 30%;
+    min-width: 200px;
+    margin-left: 2.5%;
+}
+.ceopic{
+    min-height: 300px;
+    min-width: 170px;
+    background-image: url("profile.jpg");
+    background-size:cover;
+}
+#ceocontact{
+    width: 93%;
+    margin: 3%
+}
+@media(min-width: 200px) and (max-width: 331px){
+    .ceopic{
+        min-height: 200px;
+        min-width: 170px;
+        background-image: url("profile.jpg");
+        background-size:cover;
+    }
+}
+@media(min-width: 331px) and (max-width: 500px){
+    .ceo{
+        min-width: 300px;
+        margin-bottom: 8px;
+    }
+}
+@media(min-width: 500px) and (max-width: 800px){
+    .ceo{
+        min-width: 45%;
+    }
+    .ceopic{
+        width: auto;
+    }
+}
+@media(min-width: 800px) and (max-width: 1300px){
+    .ceo{
+        min-width: 40%;
+        
+    }
+}
+
+.forms{
+    width: 32.8%;
+    margin-left: 15px;
+}
+#contact{
+    width: 100%;
+}
+#button{
+    background-color: black;
+    color: white;
+}
+#review{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+#buttonon{
+    margin-left: 15px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+#footerlink{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.likeshare{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.like{
+   padding-right: 4%;
+}
+.love{
+   padding-right: 4%;
+}
+#bold{
+    font-size: 20px;
+}
+#one{
+    border: 1px solid black
+}
